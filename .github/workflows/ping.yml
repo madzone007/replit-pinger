@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Ping Replit
-      run: https://81354193-02c8-42e5-b9fa-9e709364a2dd-00-1dpiwotv3qatw.sisko.replit.dev:3000/
+      run: curl -s "https://my-247-bot.madzone70.repl.co" > /dev/null
