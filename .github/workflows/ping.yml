@@ -1,0 +1,12 @@
+name: Keep Replit Alive
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'  # Runs every 1 minute, 24/7
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Ping Replit
+      run: https://81354193-02c8-42e5-b9fa-9e709364a2dd-00-1dpiwotv3qatw.sisko.replit.dev:3000/
