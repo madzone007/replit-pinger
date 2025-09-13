@@ -8,5 +8,5 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-    - name: Ping Replit
-      run: curl -s "https://my-247-bot.madzone70.repl.co" > /dev/null
+    - name: Ping Replit Page
+      run: curl -s "https://replit.com/@madzone70/my-247-bot" > /dev/null
